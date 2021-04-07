@@ -1,0 +1,84 @@
+.skill_section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.styleSkill{
+    padding: 16px;
+    box-shadow: 1px 2px 8px 2px #037b36;;
+    border-radius: 11px;
+}
+
+.left_skill{
+    width: 100%;
+    
+
+}
+.centerDiv{}
+.centerDiv h6{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #363958;
+    font-weight: 800;
+    font-size: 19px;
+}
+.centerDiv p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.right_skill{
+    width: 100%;
+}
+.skill1{
+    margin-bottom: 12px;
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+    font-size: 16px;
+    color: #363958;
+}
+.skill1 p{
+    margin-bottom: 6px;
+}
+.skill_bg{
+    background-color: #363958;
+    width: 100%;
+    position: relative;
+    height: 20px;
+    border-radius: 10px;
+}
+.skil_percent{
+    background-image: linear-gradient(90deg ,#037b36, #9bf3bf);
+    position: absolute;
+    height: 20px;
+    width: 98%;
+    text-align: center;
+    border-radius: 10px;
+}
+.skil_percent p{
+    color: #363958;
+}
+.text1{
+   color:#363958;
+}
+.text2{
+    color: #037b36;;
+}
+.width2{
+    width: 88% !important;
+    text-align: center;
+}
+
+.width3{
+    width: 70% !important;
+    text-align: center;
+}
+.width4{
+    width: 65% !important;
+    text-align: center;
+}
+.width5{
+    width: 40% !important;
+    text-align: center;
+}
+.width6{
+    width: 40% !important;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.footer{
+    
+    background-color: #037b36;;
+    height: 50px;
+    margin-top: 100px;
+
+}
+.footer p{
+    padding-top: 18px;
+    color: #ddd;
+    font-family: 'Josefin Sans';
+}
