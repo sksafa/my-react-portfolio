@@ -1,0 +1,46 @@
+.MyProject{
+    background-color: #121833;
+    padding-top: 100px;
+}
+.projectCard{
+    background-color: #2A2F48;
+    color: #EAEAED;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 33px;
+    font-weight: 600;
+    height: 344px;
+}
+.serviceIcon{
+    color: #27E178;
+    font-size: 40px;
+}
+
+.projectCard:hover{
+    background-color: #27E178 ;
+    color: #EAEAED;
+}
+.projectCard:hover .serviceIcon{
+    color: #ffff;
+}
+
+.projectCard:hover .projectDetailsBtn{
+    background-color: #182C61;
+    color: #fff;
+}
+
+
+
+.projectDetailsBtn{
+    background-color: #27E178;
+    color: #fff;
+    font-size: 19px;
+    padding: 8px 17px;
+    margin-top: 16px;
+    border: 1px solid transparent;
+    display: inline-block;
+    width: 197px;
+    text-decoration: none;
+}
+

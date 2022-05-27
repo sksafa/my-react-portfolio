@@ -1,51 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-.overly{
-     /* background-color: rgba(10, 223, 205, 0.908);   */
-     /* height: 100vh; */
+.bannerSection{
+    background-color: #0C0E27;
+      /* background-image: linear-gradient(to right, #252740 , #3B3D53); */
+      height: 700px;
+     
 }
-.overly img{
-   margin-top: 12%;
-    width: 100%;
-    height: 530px;
-}
+
 .middle{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 700px;
 }
-.caption{}
+.caption{
+    height: 400px;
+    width:100%;
+}
 .blueHeading{
-    color: #213380;
-    font-family: 'Bebas Neue', cursive;
+    color: #fff;
     font-size: 60px;
     margin: 0px;
     font-weight: 700;
 }
 .whiteHeading{
-    color: #037b36;;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 60px;
+    color: #27E178;
+    font-size: 45px;
     font-weight: 700;
+    margin: 13px 0px;
 }
-.pTag{
-    color: #fff;
-    background: #037b36;;
-    padding: 0px 8px;
-    border-radius: 2px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-}
+
 .socialIcon{}
 .socialIcon a{
-    height: 40px;
-    width: 40px;
-    margin: 3px 3px;
+    height: 43px;
+    width: 43px;
+    margin: 4px 5px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 50%;
     color: #fff;
 }
@@ -72,45 +65,38 @@
 }
 
 .bannerButton{
-    background-color: #037b36;;
-    border: 0px;
+    background-color: #27E178;
     color: #fff;
-    font-size: 21px;
-    padding: 2px 19px;
-    font-weight: 600;
-    border-radius: 4px;
+    font-size: 19px;
+    padding: 8px 17px;
     margin-top: 16px;
-    border: 2px solid transparent;
-    font-family: 'Josefin Sans', sans-serif;
-      
+    border: 1px solid transparent;
+    display: inline-block;
+    width: 197px;
+    text-decoration: none;
 }
+
 .bannerButton:hover{
     background-image: linear-gradient(to right,#fff,#fff);
     color: #037b36;;
-    border: 2px solid #037b36;;
+    border: 1px solid #037b36;
+    text-decoration: none;
 }
-.rightSection{
- 
-    margin-top:100px;
-    width: 100%;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #037b36;
-}
-.rightImg{
-    width: 94%;
-    height: 361px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #037b36;
-    box-shadow: 1px 2px 6px 2px #0c5d2d;
 
+.projectButton{
+    background-color: #182C61;
+    color: #fff;
+    font-size: 19px;
+    padding: 8px 17px;
+    margin-top: 16px;
+    border: 1px solid transparent;
+    display: inline-block;
+    width: 197px;
+    text-decoration: none;
 }
-.rightImg img{
-    height: 95%;
-    width: 95%;
-    margin-top: 1px;
+.projectButton:hover{
+    background:#27E178;
+    color: #fff;;
+    border: 1px solid #037b36;
+    text-decoration: none;
 }

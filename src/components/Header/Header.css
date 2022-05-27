@@ -1,21 +1,21 @@
 
-
-
-
-
-
 nav{
-    background-color: #037b36;;
+    background-color: #121833;
+    border-bottom: 1px solid #06081de0;
 }
 .navComponent{
-    font-size: 17px;
+    font-size: 20px;
     color: #fff;
     margin: 6px 8px;
     font-weight: 600;
     /* font-family: 'Bebas Neue', cursive; */
-    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    padding: 5px 3px;
 }
 .navComponent:hover{
     text-decoration: none;
     color: darkgrey;
+}
+.logoStyle{
+    color: #27E178;
 }

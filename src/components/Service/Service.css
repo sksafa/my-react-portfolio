@@ -1,0 +1,24 @@
+.serviceSection{
+    background-color: #0C0E27;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.serviceCard{
+    background-color: #252740;
+    color: #EAEAED;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 36px;
+}
+.serviceIcon{
+    color: #27E178;
+    font-size: 40px;
+}
+.serviceCard:hover{
+    background-color: #27E178 ;
+    color: #EAEAED;
+}
+.serviceCard:hover .serviceIcon{
+    color: #ffff;
+}

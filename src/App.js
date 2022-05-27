@@ -2,9 +2,7 @@ import React from "react";
 import Home from './components/Home/Home';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header from "./components/Header/Header";
-import Education from "./components/Education/Education";
 import NoMatch from "./components/NoMatch/NoMatch";
-import Project from "./components/Project/Project";
 import ReactProject from "./components/ReactProject/ReactProject";
 import JavascriptProject from "./components/JavascriptProject/JavascriptProject";
 import BootstrapProject from "./components/BootstrapProject/BootstrapProject";
@@ -12,6 +10,9 @@ import Skill from "./components/Skill/Skill";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import MongoDb from "./components/MongoDb/MongoDb";
+import MyProject from "./components/MyProject/MyProject";
+import Service from "./components/Service/Service";
+import MyEducation from "./components/MyEducation/MyEducation";
 
 
 function App() {
@@ -28,11 +29,15 @@ function App() {
         </Route>
 
         <Route path="/Education">
-          <Education></Education>
+          <MyEducation></MyEducation>
+        </Route>
+
+        <Route path="/service">
+         <Service></Service>
         </Route>
 
         <Route path="/project">
-          <Project></Project>
+         <MyProject></MyProject>
         </Route>
 
         <Route path="/ReactProject">
@@ -62,7 +67,6 @@ function App() {
         <Route path="*">
           <NoMatch></NoMatch>
         </Route>
-       
       </Switch>
       <Footer></Footer>
     </Router>

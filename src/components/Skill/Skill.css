@@ -1,27 +1,27 @@
 .skill_section{
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 100px;
+    background: #1d204c;
 }
 .styleSkill{
     padding: 16px;
-    box-shadow: 1px 2px 8px 2px #037b36;;
-    border-radius: 11px;
+    box-shadow: 1px 2px 8px 2px #070115;
 }
 
 .left_skill{
     width: 100%;
-    
-
 }
 .centerDiv{}
 .centerDiv h6{
     font-family: 'Josefin Sans', sans-serif;
-    color: #363958;
+    color: #ddd;
     font-weight: 800;
     font-size: 19px;
 }
 .centerDiv p{
-    font-family: 'Josefin Sans', sans-serif;
+    color: #989393dd;
+    font-family: verdana;
+    font-size: 14px;
 }
 
 .right_skill{
@@ -36,6 +36,7 @@
 }
 .skill1 p{
     margin-bottom: 6px;
+    color: #fff;
 }
 .skill_bg{
     background-color: #363958;
@@ -56,7 +57,7 @@
     color: #363958;
 }
 .text1{
-   color:#363958;
+   color:#fff;
 }
 .text2{
     color: #037b36;;
@@ -67,18 +68,18 @@
 }
 
 .width3{
-    width: 70% !important;
+    width: 82% !important;
     text-align: center;
 }
 .width4{
-    width: 65% !important;
+    width: 78% !important;
     text-align: center;
 }
 .width5{
-    width: 40% !important;
+    width: 55% !important;
     text-align: center;
 }
 .width6{
-    width: 40% !important;
+    width: 50% !important;
     text-align: center;
 }
