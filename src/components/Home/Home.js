@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../About/About';
 import Banner from '../Banner/Banner';
+import Experience from '../Experience/Experience';
 import MyEducation from '../MyEducation/MyEducation';
 import MyProject from '../MyProject/MyProject';
 import Service from '../Service/Service';
@@ -12,6 +13,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <About></About>
+            <Experience></Experience>
             <Service></Service>
             <MyProject></MyProject>
             <Skill></Skill>

@@ -38,12 +38,12 @@ const Contact = () => {
 
                             <div className="centerDiv mt-4">
                                 <h6>Address</h6>
-                                <p>Shukrabd,Dhanmondi 32,Dhaka 1209</p>
+                                <p>Kuril, Dhaka, Bangladesh</p>
                             </div>
 
                             <div className="centerDiv">
                                 <h6>Phone</h6>
-                                <p>+8801974594119 , +8801744594119 </p>
+                                <p>+01814246749, +8801974594119</p>
                             </div>
 
                             <div className="centerDiv">

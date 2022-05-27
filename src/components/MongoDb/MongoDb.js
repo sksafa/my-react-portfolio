@@ -2,7 +2,9 @@ import React from 'react';
 import './MongoDb.css'
 import mongo from '../../image/mongo.png'
 import cl from '../../image/cl.png'
-const timeZone = 'https://nodeassignment10.web.app/'
+import news from "../../image/news.png"
+const timeZone = 'https://nodeassignment10.web.app/';
+
 
 const MongoDb = () => {
     return (
@@ -10,7 +12,6 @@ const MongoDb = () => {
             <h2 className="text-center text-white pt-5 mt-5" >Full Stack Project</h2>
             <div className="container">
                 <div className="row">
-
                     <div className="col-md-6 col-sm-12" >
                         <div className="mongoCard">
                             <img className="img-fluid" src={cl} alt="" />
@@ -25,10 +26,20 @@ const MongoDb = () => {
                             <a className="serverButton" href="https://github.com/sksafa/queak-cleaning-server" target="_blank">Server Code</a>
                         </div>
                     </div>
-
-
-
-
+                    <div className="col-md-6 col-sm-12" >
+                        <div className="mongoCard">
+                            <img className="img-fluid" src={news} alt="" />
+                            <h4 className="mt-2">Newspark </h4>
+                            <li>Shows all news articles on the home page. Users can view news articles by filter a category.</li>
+                            <li>When user select a category, User will see all of the news articles from that category.</li>
+                            <li>By clicking the details button the visitor will be able to watch the full news articles.</li>
+                            <li>Admin can post new news articles that’ll be added dynamically to the home page.</li>
+                            <li><b>Technologies used:</b> React, Bootstrap5, MongoDB, Node, Express, Firebase, Stripe.</li>
+                            <a className="visitButton" href="https://newspaper420-ede7a.web.app/" target="_blank">View Site</a>
+                            <a className="codeButton" href="https://github.com/sksafa/newspaper" target="_blank">Client Code</a>
+                            <a className="serverButton" href="https://github.com/sksafa/server-n" target="_blank">Server Code</a>
+                        </div>
+                    </div>
                     <div className="col-md-6 col-sm-12" >
                         <div className="mongoCard">
                             <img className="img-fluid" src={mongo} alt="" />

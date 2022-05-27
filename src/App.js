@@ -13,6 +13,7 @@ import MongoDb from "./components/MongoDb/MongoDb";
 import MyProject from "./components/MyProject/MyProject";
 import Service from "./components/Service/Service";
 import MyEducation from "./components/MyEducation/MyEducation";
+import Experience from "./components/Experience/Experience";
 
 
 function App() {
@@ -28,16 +29,20 @@ function App() {
           <Home></Home>
         </Route>
 
+        <Route path="/experience">
+          <Experience></Experience>
+        </Route>
+
         <Route path="/Education">
           <MyEducation></MyEducation>
         </Route>
 
         <Route path="/service">
-         <Service></Service>
+          <Service></Service>
         </Route>
 
         <Route path="/project">
-         <MyProject></MyProject>
+          <MyProject></MyProject>
         </Route>
 
         <Route path="/ReactProject">

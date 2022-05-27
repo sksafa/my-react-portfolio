@@ -14,6 +14,7 @@ const Header = () => {
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul className="navbar-nav navOption  ">
                            <Link to="" className="navComponent" >Home</Link>
+                           <Link to="/experience" className="navComponent" >Work Experience</Link>
                            <Link to="/service" className="navComponent" >Service</Link>
                            <Link to="/Skill" className="navComponent" >Skills</Link>
                            <Link to="/Project" className="navComponent" >Project</Link>
