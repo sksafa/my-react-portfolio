@@ -27,7 +27,7 @@ const Banner = () => {
                         <div className="col-md-10 middle">
                             <div className="caption">
                                 <h1 className="blueHeading">Hello, I'm Safawat Hossain </h1>
-                                <h1 className="whiteHeading">I'm A Front End Developer</h1>
+                                <h1 className="whiteHeading">I'm A Software Engineer</h1>
 
                                 <div className="socialIcon">
                                     <a className="github" rel="noreferrer" href="https://github.com/sksafa?tab=repositories" target="_blank">{github}</a>

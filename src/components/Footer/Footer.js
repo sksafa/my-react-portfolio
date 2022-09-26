@@ -17,7 +17,7 @@ const Footer = () => {
                     <div className="col-md-4 col-sm-6">
                         <div className="footerAbout px-4">
                             <h4 className="text-white mb-4 mt-5"><span className="logoStyle">Safawat</span> Hossain</h4>
-                            <p>This is safwat hossain. I have been working as a front end developer since october 2021 at <strong>BYSL GLOBAL TECHNOLOGY</strong> . I am a hardworking ,dedicated IT person. I have completed more than 10 projects which are fully professional.</p>
+                            <p>This is safwat hossain. I have been working as a front end developer since September 2021 at <strong>BYSL GLOBAL TECHNOLOGY</strong> . I am a hardworking ,dedicated IT person. I have completed more than 10 projects which are fully professional.</p>
                         </div>
                     </div>
                     {/* <div className="col-md-2 col-sm-6 d-flex justify-content-center">

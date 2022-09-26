@@ -48,7 +48,7 @@ const About = () => {
                                         </tr>
                                         <tr>
                                             <td><p>Address:</p></td>
-                                            <td><p>92/3 Shukrabad,Dhaka</p></td>
+                                            <td><p>Joarshahara, Dhaka</p></td>
                                         </tr>
                                         <tr>
                                             <td><p>Work Status: </p></td>
